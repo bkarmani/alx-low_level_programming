@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * _isdigit - detects numbers from 0 through 9
- * @c: value to check 
- * Return: 1 if c is a number, otherwise retturns 0
+ * _isdigit - checks for digits 1 through 9
+ * @c: value to be checked
+ * Return: 1 if c is a digit, otherwise returns 0
  */
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
