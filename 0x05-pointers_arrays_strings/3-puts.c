@@ -7,17 +7,17 @@
  */
 void _puts(char *str)
 {
-	int count = 0;
+	int num = 0;
 
-	while (count >= 0)
+	while (num >= 0)
 	{
-		if (str[count] != '\0')
+		if (str[num] != '\0')
 		{
-			_putchar(str[count]);
-			count++;
+			_putchar(str[num]);
+			num++;
 		} else
 		{
-			count = -1;
+			num = -1;
 			_putchar('\n');
 		}
 	}
